@@ -24,7 +24,7 @@ Collaborator-focused
 6. The Github Repository (Often shortened to "Repo") has been created!
 7. Under "Quick Setup" you should be able to see an HTTPS button greyed out, with a URl to the right side
    - Something like:  | HTTPS | SSH |   | www.github.com/Exeter-Diabetes/repository.git |
-8. Copy the HTTPS link (URL)
+8. Copy the HTTPS link (URL) that points to YOUR repository
 
 ### Initialize local environment (MacOS)
 1. As **Mac** and Windows have different file explorers and terminals, these two require two different set ups.
