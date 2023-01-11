@@ -1,7 +1,7 @@
 # This guide explains how to set up and use a new repository
 Collaborator-focused
 
-## Prerequisits
+## Prerequisites
 * [Nomenclature](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/Nomenclature.md) naming convention 
 * [Git](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/GithubConfig.md) installed and configured
 
