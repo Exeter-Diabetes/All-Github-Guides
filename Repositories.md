@@ -88,7 +88,7 @@ git push origin main
 
 If you navigate to your repository on GitHub, you should now see your project is online!
 
-**_Now that setup is complete, please see the "WorkingGitHub" guide!!_**
+**_Now that setup is complete, please see the ["WorkingGitHub" guide!!](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/WorkingGit.md)_**
 
 
 
