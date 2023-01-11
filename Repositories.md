@@ -7,7 +7,19 @@ Collaborator-focused
 * Must be a member of the Exeter-Diabetes Github Organisation before you can add files, repositories or make changes!
   - If you are not a member yet, ask the current organisation owner to send you an invitation which you will need to accept.
 
+## Creating an empty, new Github Repository
+- Sometimes it is easier to create an empty github repo and then import this repository as a project into your local environment than it is to create a new project in your local environment and connect it to a new github repository.
 
+1. Navigate to github.com
+2. Once signed in, on the left side click the green "New" button with a book icon
+3. Choose whether the repository is best kept Private (within the organization, NOT individual) or Public (viewable by anyone on the internet)
+   - Note: Public repositories although viewable by anyone, they can only be edited/modified by Exeter-Diabetes Organisation members.
+4. Finalise details and click "Create Repository"
+5. The Github Repository (Often shortened to "Repo") has been created!
+6. Under "Quick Setup" you should be able to see an HTTPS button greyed out, with a URl to the right side
+   - Something like:  | HTTPS | SSH |   | www.github.com/Exeter-Diabetes/repository.git |
+7. Copy the HTTPS link (URL) that points to YOUR repository
+8. This URL will be used to access and connect to your new repository!
 
 
 
