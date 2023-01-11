@@ -35,7 +35,7 @@ Collaborator-focused
 git init
 ```
 5. This folder now has Local Version Control enabled thanks to Git! Let's link it up to our online repository so we can start pushing and pulling our latest project versions.
-6. Enter the following sequence of commands to push your local files to target GitHub repository
+6. Enter the following sequence of commands to connect your Local environment to the online Github repo
 ```
 git add -A
 git commit -m ‘initial commit’
