@@ -20,11 +20,14 @@ Creating new Git-backed R project
 1. Navigate to the toolbar in R-Studio and select File > New Project
 
 ![Screenshot 2023-01-11 at 15 48 33](https://user-images.githubusercontent.com/85688580/211852432-ca2fdb6a-64a2-4146-bb36-d12e278fddf1.png)
+
 2. Select "Version Control" At the bottom
 
 ![Screenshot 2023-01-11 at 15 48 40](https://user-images.githubusercontent.com/85688580/211852809-9b4c2527-ac56-420e-9638-71800ba26d8a.png)
+
 3. Select "Git"
 
 ![Screenshot 2023-01-11 at 15 48 50](https://user-images.githubusercontent.com/85688580/211852913-4b0460e4-52f3-4107-a512-5a1fe1696dd7.png)
+
 4. Paste the HTTPS link (URL) from previous section in the "Repository URL" field and name your project in the "Project Directory Name" field.
 5. Create project!
