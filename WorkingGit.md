@@ -15,7 +15,9 @@
   - Terminal: Right click folder and "New Terminal at Folder"
   - Command Prompt: open command prompt and "cd C://folder/path"
 * Enter the following command:
-```git pull```
+```
+git pull
+```
 
 ## Pushing
 * Everytime you commit changes to your local environment, it is good practice to *Push* these changes as well.
@@ -29,4 +31,6 @@
   - Terminal: Right click folder and "New Terminal at Folder"
   - Command Prompt: open command prompt and "cd C://folder/path"
 * Enter the following command:
-```git push origin main```
+```
+git push origin main
+```
