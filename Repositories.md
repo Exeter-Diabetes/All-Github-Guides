@@ -7,6 +7,10 @@ Collaborator-focused
 * Must be a member of the Exeter-Diabetes Github Organisation before you can add files, repositories or make changes!
   - If you are not a member yet, ask the current organisation owner to send you an invitation which you will need to accept.
 
+
+
+
+
 ## Pushing a local project to a new github repository
 ### When would I use this?
 - This section is most applicable when you have already started or created a coding project (folder) on your local device
@@ -40,7 +44,6 @@ git init
 git add -A
 git commit -m ‘initial commit’
 git remote add origin [Repository HTTPS URL from step 4]
-
 ```
 * "git add -A" tells Git to check ALL files within your folder for changes. If any changes are found from the previous commit, Git will _recognise_ and _save_ these files and their changes.
 * "git commit" tells Git to **commit** these file changes to update the local Git repository. This essentially creates a new version of your project, where these saved changes are the difference. 
@@ -62,12 +65,11 @@ cd [folder path]
 git init
 ```
 5. This folder now has Local Version Control enabled thanks to Git! Let's link it up to our online repository so we can start pushing and pulling our latest project versions.
-6. Enter the following sequence of commands to push your local files to target GitHub repository
+6. Enter the following sequence of commands to connect your Local environment to the online Github repo
 ```
 git add -A
 git commit -m ‘initial commit’
 git remote add origin [Repository HTTPS URL from step 4]
-
 ```
 * "git add -A" tells Git to check ALL files within your folder for changes. If any changes are found from the previous commit, Git will _recognise_ and _save_ these files and their changes.
 * "git commit" tells Git to **commit** these file changes to update the local Git repository. This essentially creates a new version of your project, where these saved changes are the difference. 
@@ -87,6 +89,10 @@ git push origin main
 If you navigate to your repository on GitHub, you should now see your project is online!
 
 **_Now that setup is complete, please see the "WorkingGitHub" guide!!_**
+
+
+
+
 
 ## Cloning a GitHub repository into a local environment
 ### Obtain the GitHub repository link
