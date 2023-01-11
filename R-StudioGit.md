@@ -8,7 +8,9 @@
 ## Creating a new project from scratch
 - If starting from scratch it is easier to create a github repo, and then import the empty github repo as an R-Studio project
 
-***Please see: "[Creating an empty, new Github Repository](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/Repositories.md#creating-an-empty-new-github-repository)"***
+1. [Create a new Github Repository](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/Repositories.md#creating-an-empty-new-github-repository)"
+2. Once github repository has been set up, following the next section to import the Repo as an R Project
+
 
 
 ## Creating R-Studio project from Github Repository
