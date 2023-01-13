@@ -9,12 +9,14 @@
 - If starting from scratch it is easier to create a github repository first, and then import the empty github repo as an R-Studio project
 
 1. [Create a new Github Repository](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/Repositories.md#creating-an-empty-new-github-repository)"
-2. Once github repository has been set up, following the next section to import the Repo as an R Project
+2. Once github repository has been set up, follow the "**Creating R-Studio project from Github Repository**" section below to import the repo as an R Project
+3. After you have cloned the github repository into your R-studio environment, you can begin creating files and scripts like normal!
+   * Just remember to regularly commit your changes and then push those versions to the online repository so it can also stay updated!
 
 
 
 ## Creating R-Studio project from Github Repository
-* Most applicable when you want to import a project from a Github repository to your local environment so you can make changes or code
+* Most applicable when you want to import a project from a Github repository to your local environment so you can make changes or create scripts/files
 
 Copying Github repo URL
 1. Navigate to the Repository on Github
