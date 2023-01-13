@@ -22,7 +22,7 @@ Most applicable when you want to import a project from a Github repository to yo
 * This method uses the built in R-Studio terminal/console and a native function
 * Very quick and easy
 
-1. [Copying Github repo URL](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/3-Repositories.md#cloning-a-github-repository-into-a-local-environment)
+1. [Copy Github repo URL](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/3-Repositories.md#cloning-a-github-repository-into-a-local-environment)
 2. Enter the following commands into the R-Studio console
    * Requires an active R-Studio session (with a console of course)
    * First argument is the HTTPS link to remote Github repository
@@ -38,13 +38,9 @@ Most applicable when you want to import a project from a Github repository to yo
 ### Method 2: Clickity 
 * This method relies on clicking through the various options R-Studio offers to set up a new project
 * Slightly slower than using console, but more understandable 
-[Copying Github repo URL](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/3-Repositories.md#cloning-a-github-repository-into-a-local-environment)
-1. Navigate to the Repository on Github
-2. Open the repository and click the green "Code" dropdown menu in the top right
-3. Copy the HTTPS link (URL)
 
-Creating new Git-backed R project
-1. Navigate to the toolbar in R-Studio and select File > New Project
+1. [Copy Github repo URL](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/3-Repositories.md#cloning-a-github-repository-into-a-local-environment)
+2. Navigate to the toolbar in R-Studio and select File > New Project
 
 ![Screenshot 2023-01-11 at 15 48 33](https://user-images.githubusercontent.com/85688580/211852432-ca2fdb6a-64a2-4146-bb36-d12e278fddf1.png)
 
