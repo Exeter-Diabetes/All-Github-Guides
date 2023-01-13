@@ -2,29 +2,44 @@
 Collaborator-focused
 
 ## Prerequisites
-* [Nomenclature](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/Nomenclature.md) naming convention 
-* [Git](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/GithubConfig.md) installed and configured
+* [Nomenclature](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/1-Nomenclature.md) naming convention 
+* [Git](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/2-GitConfig.md) installed and configured
 * Must be a member of the Exeter-Diabetes Github Organisation before you can add files, repositories or make changes!
   - If you are not a member yet, ask the current organisation owner to send you an invitation which you will need to accept.
+  - Currently: Ethan de Villiers or Katie Young
 
-## Creating an empty, new Github Repository
-- Sometimes it is easier to create an empty github repo and then import this repository as a project into your local environment than it is to create a new project in your local environment and connect it to a new github repository.
+## Creating a new Exeter-Diabetes Github Repository
+- Github repositories are folders that hold your project files
+- It is good practice to separate your projects into different repositories
+  * Refer to _Nomenclature_
+- Creating a new Github repository **instead of** creating a new project-folder on your computer is the recommended practice
+  * Best practice to _keep_ your code on Github = more organised, easier to track
+  * It is more difficult to create a local environment and connect it to Github Repository, than it is to create a Github repository and connect it to your local environment
+- **Please note:** This section is not for creating personal repositories. These steps will create a new repository within the Exeter-Diabetes organisation
 
-1. Navigate to github.com
-2. Once signed in, on the left side click the green "New" button with a book icon
-3. Choose whether the repository is best kept Private (within the organization, NOT individual) or Public (viewable by anyone on the internet)
-   - Note: Public repositories although viewable by anyone, they can only be edited/modified by Exeter-Diabetes Organisation members.
-4. Finalise details and click "Create Repository"
-5. The Github Repository (Often shortened to "Repo") has been created!
-6. Under "Quick Setup" you should be able to see an HTTPS button greyed out, with a URl to the right side
+1. Navigate to [Github.com](https://github.com/)
+2. Once signed in, at the top of the left navigation panel, click on your username to open the Dashboard Context dropdown
+   * If you have been added to the Exeter-Diabetes organisation, you should see it there
+   * Click on the "Exeter-Diabetes" option to navigate to the organisation's dashboard
+3. On the left side, click on "View Organisation" to be taken to the Exeter-Diabetes page
+4. Open the "Repositories" tab at the top, and click the green "New Repository" button in the top right
+   * Follow correct _Nomenclature_ naming format, and add an appropriate description for your new project.
+5. Choose whether the repository is best kept Private or Public
+   * Private repositories are visible ONLY by the organisation. Anyone within the organisation can view the repository but not the public.
+   * Public repositories are viewable and clonable by anyone on the internet, but they can only be modified by Exeter-Diabetes organisation members.
+6. Finalise details and click "Create Repository"
+7. The Github Repository (Often shortened to "repo") has been created!
+8. Under "Quick Setup" you should be able to see an HTTPS button greyed out, with a URl to the right side
    - Something like:  | HTTPS | SSH |   | www.github.com/Exeter-Diabetes/repository.git |
-7. Copy the HTTPS link (URL) that points to YOUR repository
-8. This URL will be used to access and connect to your new repository!
+9. Copy the HTTPS link (URL) that points to YOUR repository
+10. This URL will be used to access and connect to your new repository!
+    * Extremely important for connecting local development environments to this online Github repository!
+
+
 
 
 
 ## Pushing a local project to a new github repository
-### When would I use this?
 - This section is most applicable when you have already started or created a coding project (folder) on your local device
 - If you have a local project and you want to MIGRATE this to the online Exeter-Diabetes Organisation GitHub
 - To upload your project, Github requires a container to hold your files: referred to as a "Repository"
