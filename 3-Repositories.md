@@ -23,8 +23,7 @@ Collaborator-focused
 2. Once signed in, at the top of the left navigation panel, click on your username to open the Dashboard Context dropdown
    * If you have been added to the Exeter-Diabetes organisation, you should see it there
    * Click on the "Exeter-Diabetes" option to navigate to the organisation's dashboard
-3. On the left side, click on "View Organisation" to be taken to the Exeter-Diabetes page
-   * Alternatively, navigate to the [Exeter-Diabetes page](https://github.com/Exeter-Diabetes)
+3. On the left side, click on "View Organisation" to be taken to the [Exeter-Diabetes page](https://github.com/Exeter-Diabetes)
 4. Open the "Repositories" tab at the top, and click the green "New Repository" button in the top right
    * Follow correct _Nomenclature_ naming format, and add an appropriate description for your new project.
 5. Choose whether the repository is best kept Private or Public
