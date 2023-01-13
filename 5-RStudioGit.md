@@ -41,19 +41,20 @@ Most applicable when you want to import a project from a Github repository to yo
 
 1. [Copy Github repo URL](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/3-Repositories.md#cloning-a-github-repository-into-a-local-environment)
 2. Navigate to the toolbar in R-Studio and select File > New Project
+3. Select "Version Control" At the bottom
 
 ![Screenshot 2023-01-11 at 15 48 33](https://user-images.githubusercontent.com/85688580/211852432-ca2fdb6a-64a2-4146-bb36-d12e278fddf1.png)
 
-2. Select "Version Control" At the bottom
+4. Select "Git"
 
 ![Screenshot 2023-01-11 at 15 48 40](https://user-images.githubusercontent.com/85688580/211852809-9b4c2527-ac56-420e-9638-71800ba26d8a.png)
 
-3. Select "Git"
+5. Paste the HTTPS link (URL) from previous section in the "Repository URL" field and name your project in the "Project Directory Name" field.
+6. Create project!
 
 ![Screenshot 2023-01-11 at 15 48 50](https://user-images.githubusercontent.com/85688580/211852913-4b0460e4-52f3-4107-a512-5a1fe1696dd7.png)
 
-4. Paste the HTTPS link (URL) from previous section in the "Repository URL" field and name your project in the "Project Directory Name" field.
-5. Create project!
+
 
 ## Exporting local project to a new Github repository
 * Exporting local projects should **only be done** to migrate OLD projects to Github
@@ -71,11 +72,10 @@ Follow the ["Pushing a local project to a new Github repository" guide](https://
 * Pushing local changes to your Github repository will easily make up majority of your Git use
 
 Commits and Pushing
-![Screenshot 2023-01-13 at 12 29 37](https://user-images.githubusercontent.com/85688580/212321860-05cc701d-3aea-4eca-ad73-cd9432528155.png)
 * Once a project is Git initialised, you can begin committing changes.
 * At the top of R-Studio, you can find a "Git" button written vertically, navigate to "Commit..."
+![Screenshot 2023-01-13 at 12 29 37](https://user-images.githubusercontent.com/85688580/212321860-05cc701d-3aea-4eca-ad73-cd9432528155.png)
 
-![Screenshot 2023-01-13 at 12 34 58](https://user-images.githubusercontent.com/85688580/212321802-8c0f3277-1642-491d-87cd-81fe17982cc5.png)
 * Clicking on "Commit..." will open a new window that should look similar to this
 * In the top left corner are all of the modified files within this project. You must manually select (tick) the files that you want to track (add) for the commit.
   * Rule of thumb: Dont track hidden files that begin with ".", such as ".RData"
@@ -90,6 +90,9 @@ Commits and Pushing
    * By hitting enter, you can provide more detailed and additional info if you choose to. I personally like to summarise my changes in bullet points
  * Once you have tracked changes, reviewed code, and written a commit message - **You can now click the "Commit" button in the top right**
    * Keep in mind this **does not** push your code to your Github repository, it only creates a new local version.
+
+![Screenshot 2023-01-13 at 12 34 58](https://user-images.githubusercontent.com/85688580/212321802-8c0f3277-1642-491d-87cd-81fe17982cc5.png)
+
  * **_PUSHING_**: once a commit has been made, the online repository is one version behind your local version, so it is recommended you push straight away so others who might be viewing/working on your code can be updated
  * To push, simply click the "Push" button in the top right!
    * Remember, when working collaboratively, it is best to _pull_ before you _push_
