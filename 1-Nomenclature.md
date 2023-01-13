@@ -27,7 +27,7 @@ Eg. StartRight-Ethan-Scripts
 
 2. Repository has no target dataset
    * This can occur when an informative, or non-project related repository is required
-   * When a dataset is not relevant, the first section of the typical naming convention should be replaced with a concise, PascalCase word (or abbreviation) regarding the relevant event
+   * The first section of the typical naming convention should be replaced with a concise, PascalCase word (or abbreviation) regarding the relevant event
       * eg. DUK-Ethan-General
 
 3. Repository has multiple essential authors
