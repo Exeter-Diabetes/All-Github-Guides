@@ -76,7 +76,8 @@ Commits and Pushing
 * At the top of R-Studio, you can find a "Git" button written vertically, navigate to "Commit..."
 ![Screenshot 2023-01-13 at 12 29 37](https://user-images.githubusercontent.com/85688580/212321860-05cc701d-3aea-4eca-ad73-cd9432528155.png)
 
-* Clicking on "Commit..." will open a new window that should look similar to this
+* Clicking on "Commit..." will open a new window that should look similar to this:
+![Screenshot 2023-01-13 at 12 34 58](https://user-images.githubusercontent.com/85688580/212321802-8c0f3277-1642-491d-87cd-81fe17982cc5.png)
 * In the top left corner are all of the modified files within this project. You must manually select (tick) the files that you want to track (add) for the commit.
   * Rule of thumb: Dont track hidden files that begin with ".", such as ".RData"
   * These files are generally just important for local environments, and can sometimes be quite large
@@ -91,7 +92,7 @@ Commits and Pushing
  * Once you have tracked changes, reviewed code, and written a commit message - **You can now click the "Commit" button in the top right**
    * Keep in mind this **does not** push your code to your Github repository, it only creates a new local version.
 
-![Screenshot 2023-01-13 at 12 34 58](https://user-images.githubusercontent.com/85688580/212321802-8c0f3277-1642-491d-87cd-81fe17982cc5.png)
+
 
  * **_PUSHING_**: once a commit has been made, the online repository is one version behind your local version, so it is recommended you push straight away so others who might be viewing/working on your code can be updated
  * To push, simply click the "Push" button in the top right!
