@@ -66,29 +66,12 @@ $ git clone [Repository HTTPS link from previous part]
 - Use the first section to learn how to create a new repository!
 - Once it has been set up and you have the HTTPS link (URL), come back here
 
-### 2. Initialize local environment (MacOS)
+### 2. Terminal pointed to local environment (MacOS)
 1. As **Mac** and Windows have different file explorers and shell environments, these two require two different set ups.
 2. On Finder, find your project folder, which contains all of your project files
 3. Right click on the project folder and open a "New terminal at Folder"
-4. Initialize the Git environment within the folder by entering the following command into Terminal:
-```
-git init
-```
-5. This folder now has Local Version Control enabled thanks to Git! Let's link it up to our online repository so we can start pushing and pulling our latest project versions.
-6. Enter the following sequence of commands to connect your Local environment to the online Github repo
-```
-git add -A
-git commit -m ‘initial commit’
-git remote add origin [Repository HTTPS URL from step 4]
-```
-* "git add -A" tells Git to "track" ALL files within your folder for changes. If any changes are found from the previous commit, Git will _recognise_ and _save_ these files and their changes.
-  * Notice how this is our first commit, so there is no "previous commit"! Git will recognise this and thereby track ALL files as being newly added - creating your first version.
-* "git commit" tells Git to **commit** these file changes to update the local Git repository. This essentially creates a new version of your project on your local device, where these saved changes are the difference from the old version. 
-* " -m 'initial commit'" -m adds a command-line argument, which allows you to post a comment along with your commit. This is extremely useful in versioning so you can keep track of _what_ changes you made, and how this version is different from the last. Feel free to change "initial commit" to whatever you like! But be sure to keep the single-quotation marks around it.
-* "git remote add origin" tells Git that you are adding a new final destination to PUSH your versions (commits) to. "origin" regards branching - but don't worry about this too much, we'll explore branches in the [next guide](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/4-GitBash.md)
-* You can `Command + V` to paste your URL into the terminal, thereby giving the exact address to git so that it knows where to push your versions.
 
-### 2. Initialize local environment (Windows)
+### 2. Shell pointed to local environment (Windows)
 1. As Mac and **Windows** have different file explorers and environments, these two require two different set ups.
 2. On File Explorer, find your project folder, which contains all of your project files
 3. Right click on the project folder and "Copy as path" - this will copy the folder's path into your clipboard
@@ -97,16 +80,19 @@ git remote add origin [Repository HTTPS URL from step 4]
 ```
 cd [folder path]
 ```
-5. Initialize the Git environment within the folder by entering the following command into Terminal:
+
+### 3. Init, Track, Commit, and Remote Add
+1. Once terminal is pointing to the correct project folder (previous steps):
+2. Initialize the Git environment within the folder by entering the following command into Terminal:
 ```
 git init
 ```
-5. This folder now has Local Version Control enabled thanks to Git! Let's link it up to our online repository so we can start pushing and pulling our latest project versions.
-6. Enter the following sequence of commands to connect your Local environment to the online Github repo
+3. This folder now has Local Version Control enabled thanks to Git! Let's link it up to our online repository so we can start pushing and pulling our latest project versions.
+4. Enter the following sequence of commands to connect your Local environment to the online Github repo
 ```
 git add -A
 git commit -m ‘initial commit’
-git remote add origin [Repository HTTPS URL from step 4]
+git remote add origin [Repository HTTPS URL]
 ```
 * "git add -A" tells Git to "track" ALL files within your folder for changes. If any changes are found from the previous commit, Git will _recognise_ and _save_ these files and their changes.
   * Notice how this is our first commit, so there is no "previous commit"! Git will recognise this and thereby track ALL files as being newly added - creating your first version.
@@ -115,7 +101,7 @@ git remote add origin [Repository HTTPS URL from step 4]
 * "git remote add origin" tells Git that you are adding a new final destination to PUSH your versions (commits) to. "origin" regards branching - but don't worry about this too much, we'll explore branches in the [next guide](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/4-GitBash.md)
 * You can `Command + V` to paste your URL into the terminal, thereby giving the exact address to git so that it knows where to push your versions.
 
-### 3. Finishing up
+### 4. Push
 * Congratulations! You have just connected your local project folder to an online repository! No easy task.
 * Although we have _connected_ the two, we still actually haven't **pushed** our local project to the online repository - online there is still an empty folder! We need to sync the two.
 1. In the command prompt or terminal from the previous section, enter the following command
