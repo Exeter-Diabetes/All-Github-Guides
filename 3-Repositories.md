@@ -31,7 +31,7 @@ Collaborator-focused
    * Public repositories are viewable and clonable by anyone on the internet, but they can only be modified by Exeter-Diabetes organisation members.
 6. Finalise details and click "Create Repository"
 7. The Github Repository has been created!
-8. Under "Quick Setup" you should be able to see an HTTPS button greyed out, with a URl to the right side
+8. Under "Quick Setup" you should be able to see an HTTPS button greyed out, with a URL to the right side
    - Something like:  | HTTPS | SSH |   | www.github.com/Exeter-Diabetes/repository.git |
 9. Copy the HTTPS link (URL) that points to YOUR repository
 10. This URL will be used to access and connect to your new repository!
