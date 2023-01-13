@@ -6,7 +6,7 @@
 * R-Studio installed
 
 ## Creating a new project from scratch
-- If starting from scratch it is easier to create a github repository first, and then import the empty github repo as an R-Studio project
+If starting from scratch it is easier to create a github repository first, and then import the empty github repo as an R-Studio project
 
 1. [Create a new Github Repository](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/3-Repositories.md#creating-a-new-exeter-diabetes-github-repository)
 2. Once github repository has been set up, follow the "**Creating R-Studio project from Github Repository**" section below to import the repo as an R Project
@@ -16,19 +16,14 @@
 
 
 ## Creating R-Studio project from Github Repository (Cloning)
-* Most applicable when you want to import a project from a Github repository to your local environment so you can make changes or create scripts/files
+Most applicable when you want to import a project from a Github repository to your local environment so you can make changes or create scripts/files
 
 ### Method 1: R-Studio console
 * This method uses the built in R-Studio terminal/console and a native function
 * Very quick and easy
 
-[Copying Github repo URL](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/3-Repositories.md#cloning-a-github-repository-into-a-local-environment)
-1. Navigate to the Repository on Github
-2. Open the repository and click the green "Code" dropdown menu in the top right
-3. Copy the HTTPS link (URL)
-
-Console commands
-1. Enter the following commands into the R-Studio console
+1. [Copying Github repo URL](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/3-Repositories.md#cloning-a-github-repository-into-a-local-environment)
+2. Enter the following commands into the R-Studio console
    * Requires an active R-Studio session (with a console of course)
    * First argument is the HTTPS link to remote Github repository
    * Second argument is the target project folder that R-Studio will create to store the files locally
