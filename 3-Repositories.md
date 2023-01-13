@@ -104,7 +104,8 @@ git remote add origin [Repository HTTPS URL]
 ### 4. Push
 * Congratulations! You have just connected your local project folder to an online repository! No easy task.
 * Although we have _connected_ the two, we still actually haven't **pushed** our local project to the online repository - online there is still an empty folder! We need to sync the two.
-1. In the command prompt or terminal from the previous section, enter the following command
+1. The first time we push via command line, we need to specify which _branch_ we are pushing to. In this case its the origin branch we created earlier.
+   * After the initial push, we can simply just use ` git push ` instead.
 ```
 git push origin main
 ```
