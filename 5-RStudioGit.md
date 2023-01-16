@@ -58,7 +58,7 @@ Most applicable when you want to import a project from a Github repository to yo
 
 ## Exporting local project to a new Github repository
 * Exporting local projects should **only be done** to migrate OLD projects to Github
-* New projects should not be created this way! To learn how to correctly create new projects please view the "**_Creating a new project from scratch_** section above
+* New projects should not be created this way! To learn how to correctly create new projects please view the "**_Creating a new project from scratch_**" section above
 * Unfortunately, R-Studio does not offer a simple way to create and connect Github repositories for your local projects, so you must use the command line to manually do this
 
 Follow the ["Pushing a local project to a new Github repository" guide](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/3-Repositories.md#pushing-a-local-project-to-a-new-github-repository)
