@@ -52,8 +52,8 @@ $ git config --global user.email "[email]"
 
 2. To check these details enter the following into terminal or command prompt:
 ```
-$ git config -get [user.name]
-$ git config -get [user.email]
+$ git config -get user.name
+$ git config -get user.email
 ```
 
 3. The next time you attempt to pull from a private Github repository or push to any Github repository, your default browser will launch, requriing you to sign into Github to verify your credentials! (Browser-authentication)
