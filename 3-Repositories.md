@@ -52,10 +52,10 @@ Collaborator-focused
 1. Create a new folder on local device where you would like to store github repository
 2. MacOS - Right click on the project folder and open a "New terminal at Folder"
 3. Windows - Open command prompt and navigate via "cd" to the target folder
-4. Initialize the Git environment within the folder, and then clone the repository into the folder
+4. Use the 2 commands below to: Initialize the Git environment within the folder, and then download the project files from online (GitHub) to your local folder
 ```
-$ git init
-$ git clone [Repository HTTPS link from previous part]
+git init
+git clone [Repository HTTPS link from previous part]
 ```
 
 ## Pushing a local project to a new github repository
