@@ -1,8 +1,9 @@
-# This guide explains how to best use Git on a daily basis
+# This guide explains how to best use Git with Command-Line-Interface (CLI)
 
 ## Prerequisites
 * [Git](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/GithubConfig.md) installed and configured
 * [Have set up a Github repo](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/Repositories.md)
+* Difficulty: medium - requires beginner's knowledge of Linux and CLI commands
 
 ## Pulling
 * Once a local environment has been connected to an online repository, there can be _version conflicts_:
