@@ -58,7 +58,12 @@ git init
 git clone [Repository HTTPS link from previous part]
 ```
 
-## Pushing a local project to a new github repository
+## Using your development environment (IDE) with Git
+* This is can potentially be a very long section - as there are MANY IDE's each with their own way of integrating with Git and GitHub
+* There are plenty of tutorials available for free online (Youtube, "Setting up a GitHub project with \[IDE\]"
+* IF YOU ARE USING **R-STUDIO**, be sure to look at our "GitWorkshop_slides1and2.pptx" presentation which goes into much deeper detail of how to connect, integrate and use R-Studio with Git.
+
+## Pushing a local project to a new github repository using Git Command-Line-Interface (CLI)
 - This section is most applicable when you have already started or created a coding project on your local device
 - If you have a local project and you want to MIGRATE this to the online Exeter-Diabetes Organisation Github
 
@@ -88,18 +93,18 @@ cd [folder path]
 git init
 ```
 3. This folder now has Local Version Control enabled thanks to Git! Let's link it up to our online repository so we can start pushing and pulling our latest project versions.
-4. Enter the following sequence of commands to connect your Local environment to the online Github repo
+4. We need to tell Git which files we want to push to Github. We can do this by using the $ _git add \[filename.txt\]_
+  * It is **SUPER** important that you make sure to not upload any sensitive data, datasets, medical information, etc. online!
+  * For more information regarding this, please see our "GitWorkshop_slides1and2.pptx" presentation which goes into greater detail
+5. We then need to tell Git to _save_ our changes Locally, and provide a brief description using $ _git commit -m 'message!'_
+  * Beware that using this command **DOES NOT SAVE FILE CHANGES**! Git commit tracks the last file version - so make sure to save your files before committing (usually by using Cmd/Control + S)
+  * To use git commit, we need to provide an -m 'message', even if the message is blank! Eg. $ git commit -m ''
+6. Finally, we need to tell Git _where_ we want to push (save) these selected files online, giving it the URL of our repository we copied earlier
 ```
-git add -A
+git add filename.txt foldername/file-within-folder.py analysis.R
 git commit -m ‘initial commit’
 git remote add origin [Repository HTTPS URL]
 ```
-* "git add -A" tells Git to "track" ALL files within your folder for changes. If any changes are found from the previous commit, Git will _recognise_ and _save_ these files and their changes.
-  * Notice how this is our first commit, so there is no "previous commit"! Git will recognise this and thereby track ALL files as being newly added - creating your first version.
-* "git commit" tells Git to **commit** these file changes to update the local Git repository. This essentially creates a new version of your project on your local device, where these saved changes are the difference from the old version. 
-* " -m 'initial commit'" -m adds a command-line argument, which allows you to post a comment along with your commit. This is extremely useful in versioning so you can keep track of _what_ changes you made, and how this version is different from the last. Feel free to change "initial commit" to whatever you like! But be sure to keep the single-quotation marks around it.
-* "git remote add origin" tells Git that you are adding a new final destination to PUSH your versions (commits) to. "origin" regards branching - but don't worry about this too much, we'll explore branches in the [next guide](https://github.com/Exeter-Diabetes/All-Github-Guides/blob/main/4-GitBash.md)
-* You can `Command + V` to paste your URL into the terminal, thereby giving the exact address to git so that it knows where to push your versions.
 
 ### 4. Push
 * Congratulations! You have just connected your local project folder to an online repository! No easy task.
@@ -113,11 +118,10 @@ git push origin main
 
 If you navigate to your repository on GitHub, you should now see your project is online!
 
-
-
-
-
-
-
-
+## Additional Support, Detailed walkthrough with images, and Security
+* Well done if you were able to follow that the whole way through. If you got lost anywhere - do not fret! Look at our "GitWorkshop_slides1and2.pptx" presentation which goes into much greater detail, step by step, and with images!
+* Regarding Security - thoughtfulness and consideration is extremely important when uploading potentially-sensitive information online.
+* There are 2 next steps before proceeding onto the next file/section:
+  1. Download and look through the security slides on our "GitWorkshop_slides1and2.pptx" presentation! This is of utmost importance so you are an educated Git-er
+  2. When in doubt - Don't!! It is better to ask for help to use this complicated software, than dealing with the issues from a data leak.
 
