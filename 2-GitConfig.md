@@ -12,7 +12,7 @@
 It is recommended you check that you dont already have it installed:
 1. In terminal (MacOS) or command prompt (Windows) enter the following command
 ```
-$ git --version
+git --version
 ```
 2. If this command returns any "version" of git (usually formatted like 2.23.1), you already have it installed
    * If "Command was not found" this means you don't have it installed
@@ -33,9 +33,9 @@ There are other ways such as Homebrew and Xcode to install via command line if n
 * **If you used the above steps to download and install it, you _DO NOT_ need to worry about the next step**
 1. Using terminal, install [HomeBrew](https://brew.sh/), wait for it to finish, and then use Homebrew to install Git
 ```
-$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 . . . wait for completion . . .
-$ brew install git
+brew install git
 ```
 
 ## Setting up GitHub Credentials
@@ -46,14 +46,14 @@ Before proceeding, make sure you have a Github account! You will need your usern
    * \[username] = your Github username
    * \[email] = your Github email
 ```
-$ git config --global user.name "[username]"
-$ git config --global user.email "[email]"
+git config --global user.name "[username]"
+git config --global user.email "[email]"
 ```
 
 2. To check these details enter the following into terminal or command prompt:
 ```
-$ git config -get user.name
-$ git config -get user.email
+git config -get user.name
+git config -get user.email
 ```
 
 3. The next time you attempt to pull from a private Github repository or push to any Github repository, your default browser will launch, requriing you to sign into Github to verify your credentials! (Browser-authentication)
